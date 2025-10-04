@@ -10,16 +10,16 @@ export function Header() {
             <div className="flex items-center gap-4 mb-2 md:mb-0">
               <div className="flex items-center gap-1">
                 <Phone size={14} />
-                <span>+54 9 351 7511858</span>
+                <span>+54 9 351 6260063</span>
               </div>
               <div className="flex items-center gap-1">
                 <MapPin size={14} />
-                <span>Av. San Martin 891, La Calera, Córdoba</span>
+                <span>La Calera, Córdoba</span>
               </div>
             </div>
             <div className="flex items-center gap-1">
               <Clock size={14} />
-              <span>Lun-Sáb: 8:30-13:00 y 17:00-20:30</span>
+              <span>Lun-Sáb: 8:30-13:30 y 17:00-20:30</span>
             </div>
           </div>
         </div>
@@ -40,6 +40,7 @@ export function Header() {
           
           <nav className="flex flex-wrap gap-6 text-lg font-semibold">
             <a href="#inicio" className="hover:text-pink-200 transition-colors">Inicio</a>
+            <a href="#novedades" className="hover:text-pink-200 transition-colors">Novedades</a>
             <a href="#nosotros" className="hover:text-pink-200 transition-colors">Nosotros</a>
             <a href="#productos" className="hover:text-pink-200 transition-colors">Productos</a>
             <a href="#contacto" className="hover:text-pink-200 transition-colors">Contacto</a>

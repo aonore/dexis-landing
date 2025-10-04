@@ -1,5 +1,6 @@
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { News } from './components/News';
 import { About } from './components/About';
 import { Products } from './components/Products';
 import { VideoSection } from './components/VideoSection';
@@ -12,6 +13,7 @@ function App() {
     <div className="min-h-screen">
       <Header />
       <Hero />
+      <News />
       <About />
       <Products />
       <VideoSection />
